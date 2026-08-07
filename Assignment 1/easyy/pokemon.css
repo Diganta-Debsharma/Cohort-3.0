@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    padding: 50px 50px 50px 50px;
+    display: flex;
+}
+#box1{
+    height: 100%;
+    width: 60%;
+    background-color: #FCC60C;
+    border-radius: 20px 0 0 20px;
+    position: relative;
+}
+#box2{
+    height: 100%;
+    width: 40%;
+    background-color: #FBE8B5;
+    border-radius: 0 20px 20px 0;
+}
+#pikachu{
+    position: absolute;
+    height: 80%;
+    top: 10%;
+    left: 46%;
+}
+#pokeball{
+    position: absolute;
+    bottom: 0%;
+    left: 3%;
+}
+#pokemonlogo{
+    position: absolute;
+    left: 4%;
+    top: 2%;
+    height: 150px;
+}
+#text{
+    position: absolute;
+    left: 4%;
+    top: 25%;
+    font-family: 'Pokemon Solid', sans-serif;
+}
+h1{
+    font-size: 250px;
+    font-family: 'Pokemon Solid', sans-serif;
+}
+h2{
+    margin-left: 2%;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: helvetica, sans-serif;
+    letter-spacing: 10px;
+}
+p{
+    margin-left: 2%;
+    font-size: 30px;
+    font-family: helvetica, sans-serif;
+    letter-spacing: 3px;
+    line-height: 50px;
+}
+i{
+    position: absolute;
+    top: 7%;
+    right: 4%;
+    font-size: 80px;
+}
+h3{
+    margin-top: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-left: 2%;
+}
+#circles{
+    top: 42%;
+    right: 4%;
+    position: absolute;
+}
+#circle{
+    height: 23px;
+    width: 23px;
+    margin-bottom: 25px;
+    border-radius: 50%;
+    background-color: #FCC60C;
+    margin-left: 2%;
+}
+#circle1{
+    height: 23px;
+    width: 23px;
+    margin-bottom: 25px;
+    border-radius: 50%;
+    background-color: #2e2400;
+    margin-left: 2%;
+}
